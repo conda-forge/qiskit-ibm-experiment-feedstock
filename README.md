@@ -1,11 +1,11 @@
-About qiskit-ibm-experiment
-===========================
+About qiskit-ibm-experiment-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-ibm-experiment-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Qiskit/qiskit-ibm-experiment
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/qiskit-ibm-experiment-feedstock/blob/main/LICENSE.txt)
 
 Summary: Qiskit IBM Experiment service for accessing the quantum experiment interface at IBM
 
