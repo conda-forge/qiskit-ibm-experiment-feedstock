@@ -1,5 +1,5 @@
 {% set name = "qiskit-ibm-experiment" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-ibm-experiment-{{ version }}.tar.gz
-  sha256: 4afc73caffeb8ef1514f259f951dc02f34b8375a574c7e29831a8edd02174fc6
+  sha256: 716ad055570b6eb3616f7f3ce530580223284a56b6dd97b3d4325947789b115b
 
 build:
   noarch: python
@@ -28,6 +28,7 @@ requirements:
     - requests_ntlm >=1.1.0
     - typing-extensions >=4.0.0
     - urllib3 >=1.21.1
+    - pyyaml
 
 test:
   imports:
