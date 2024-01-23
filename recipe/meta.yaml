@@ -1,5 +1,5 @@
 {% set name = "qiskit-ibm-experiment" %}
-{% set version = "0.3.5" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-ibm-experiment-{{ version }}.tar.gz
-  sha256: df5b82b09894667854addd12b7445b6bd09e9a0fdde345b38f7eb7cc2333b9aa
+  sha256: 26116f42ff2922e443c8f51e946acc06a40b653cf9695f4b2eb9467840b6cde5
 
 build:
   noarch: python
