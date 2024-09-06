@@ -1,5 +1,5 @@
 {% set name = "qiskit-ibm-experiment" %}
-{% set version = "0.4.7" %}
+{% set version = "0.4.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,17 +7,18 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-ibm-experiment-{{ version }}.tar.gz
-  sha256: 37b8e68d938429270cdf658c7793c5a7633082ce1a4edbc01f99c84df38de783
+  sha256: f5866b63fde3247008c578286b8bf5a61493e0d9839467f0d1fcfa24f45a9077
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools
   run:
     - qiskit >=0.32
     - websocket-client >=1.0.1
